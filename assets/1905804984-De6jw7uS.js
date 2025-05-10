@@ -1,3 +1,0 @@
-const e="Everyone",o=`Serenity, Sailor Moon anime
-Art by "Marmaladica"
-Site: https://www.deviantart.com/marmaladica`,t="scene.json",n={properties:{schemecolor:{order:0,text:"ui_browse_properties_scheme_color",type:"color",value:"0.945 0.886 0.824"}}},r="preview.jpg",i=["Anime"],s="Sailor Moon - Serenety",c="scene",a="public",l="1905804984",p={contentrating:e,description:o,file:t,general:n,preview:r,tags:i,title:s,type:c,visibility:a,workshopid:l};export{e as contentrating,p as default,o as description,t as file,n as general,r as preview,i as tags,s as title,c as type,a as visibility,l as workshopid};
