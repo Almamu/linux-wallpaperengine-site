@@ -10,6 +10,7 @@ import { useState } from 'react';
 
 import bgs from '../../public/bgs.json';
 import { Link } from './ui/Link.tsx';
+import { Video } from './ui/Video.tsx';
 const backgrounds = await Promise.all(
   bgs.map(bg => import(`../../public/bgs/${bg}.json`))
 );
@@ -39,10 +40,11 @@ export const BackgroundShowcaseSection = () => {
             <div
               key={bgs[index]}
               className="flex flex-col gap-2 rounded-xl border border-gray-700 bg-gray-800 p-6">
-              <video className="h-[200px]" controls poster={images[index]}>
-                <source src={videos[index]} type="video/webm" />
-                Your browser does not support the video tag.
-              </video>
+              <Video
+                className="h-[200px]"
+                src={videos[index]}
+                poster={images[index]}
+              />
               <div className="flex gap-2 items-center">
                 <span>
                   {project.type.toLowerCase() === 'video' ? (
