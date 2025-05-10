@@ -55,6 +55,11 @@ export const Header = () => {
                 </Link>
               </li>
               <li>
+                <Link href="#showcase" className="nav-link">
+                  Showcase
+                </Link>
+              </li>
+              <li>
                 <Link
                   href="https://github.com/Almamu/linux-wallpaperengine"
                   className="flex items-center rounded-md bg-primary-500 px-4 py-2 text-white transition-colors duration-300 hover:bg-primary-600">
@@ -98,6 +103,12 @@ export const Header = () => {
               className="mobile-nav-link"
               onClick={() => setMobileMenuOpen(false)}>
               Installation
+            </Link>
+            <Link
+              href="#showcase"
+              className="mobile-nav-link"
+              onClick={() => setMobileMenuOpen(false)}>
+              Showcase
             </Link>
             <Link
               href="https://github.com/Almamu/linux-wallpaperengine"
