@@ -54,7 +54,7 @@ export const Video = ({ src, poster, className }: VideoComponentProps) => {
       autoPlay={false}
       preload="none"
       playsInline
-      poster={poster}
+      poster={isVisible ? poster : undefined}
       className={className}>
       <source src={src} type="video/webm" />
       Your browser does not support the video tag. Please try viewing this page

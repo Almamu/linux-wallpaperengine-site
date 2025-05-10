@@ -9,11 +9,9 @@ import {
 import { useState } from 'react';
 
 import bgs from '../../public/bgs.json';
+import projects from '../../public/projects.json';
 import { Link } from './ui/Link.tsx';
 import { Video } from './ui/Video.tsx';
-const backgrounds = await Promise.all(
-  bgs.map(bg => import(`../../public/bgs/${bg}.json`))
-);
 const images = bgs.map(bg => `/bgs/${bg}.jpg`);
 const videos = bgs.map(bg => `/bgs/${bg}.webm`);
 const steamBaseUrl = 'https://steamcommunity.com/sharedfiles/filedetails/?id=';
@@ -36,41 +34,46 @@ export const BackgroundShowcaseSection = () => {
         <div
           className={`mx-auto max-w-6xl grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3 ${expanded ? '' : 'max-h-[700px] overflow-y-hidden relative'}`}>
           <div className="absolute bottom-0 w-full h-16 bg-linear-to-b from-transparent to-gray-850"></div>
-          {backgrounds.map((project, index) => (
-            <div
-              key={bgs[index]}
-              className="flex flex-col gap-2 rounded-xl border border-gray-700 bg-gray-800 p-6">
-              <Video
-                className="h-[200px]"
-                src={videos[index]}
-                poster={images[index]}
-              />
-              <div className="flex gap-2 items-center">
-                <span>
-                  {project.type.toLowerCase() === 'video' ? (
-                    <VideoIcon size={32} />
-                  ) : project.type.toLowerCase() === 'scene' ? (
-                    <ImageIcon size={32} />
-                  ) : (
-                    <LayersIcon size={32} />
-                  )}
-                </span>
-                <span className="text-primary-400 max-w-full min-w-0">
-                  <Link
-                    className="max-w-full flex gap-2 items-center"
-                    external
-                    href={`${steamBaseUrl}${bgs[index]}`}>
-                    <span className="overflow-hidden overflow-ellipsis whitespace-nowrap min-w-0">
-                      {project.title}
-                    </span>
-                    <span>
-                      <ExternalLinkIcon size={18} />
-                    </span>
-                  </Link>
-                </span>
+          {bgs.map((bg, index) => {
+            // @ts-expect-error the in check should take care of actually validating this
+            const project = bg in projects ? projects[bg] : null;
+
+            return (
+              <div
+                key={bg}
+                className="flex flex-col gap-2 rounded-xl border border-gray-700 bg-gray-800 p-6">
+                <Video
+                  className="h-[200px]"
+                  src={videos[index]}
+                  poster={images[index]}
+                />
+                <div className="flex gap-2 items-center">
+                  <span>
+                    {project?.type.toLowerCase() === 'video' ? (
+                      <VideoIcon size={32} />
+                    ) : project?.type.toLowerCase() === 'scene' ? (
+                      <ImageIcon size={32} />
+                    ) : (
+                      <LayersIcon size={32} />
+                    )}
+                  </span>
+                  <span className="text-primary-400 max-w-full min-w-0">
+                    <Link
+                      className="max-w-full flex gap-2 items-center"
+                      external
+                      href={`${steamBaseUrl}${bgs[index]}`}>
+                      <span className="overflow-hidden overflow-ellipsis whitespace-nowrap min-w-0">
+                        {project?.title}
+                      </span>
+                      <span>
+                        <ExternalLinkIcon size={18} />
+                      </span>
+                    </Link>
+                  </span>
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
         <div className="flex items-center justify-center mt-10">
           {expanded ? (
