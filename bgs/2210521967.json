@@ -1,0 +1,69 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "Art by Nick Sullo : https://www.artstation.com/xsullo",
+	"file" : "scene.json",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"analogclock" : 
+			{
+				"order" : 103,
+				"text" : "Analog Clock",
+				"type" : "bool",
+				"value" : false
+			},
+			"clock" : 
+			{
+				"order" : 101,
+				"text" : "Digital Clock",
+				"type" : "bool",
+				"value" : true
+			},
+			"clock24hrformat" : 
+			{
+				"order" : 105,
+				"text" : "Clock 24 Hr Format",
+				"type" : "bool",
+				"value" : true
+			},
+			"particlewheel" : 
+			{
+				"order" : 100,
+				"text" : "Particle Wheel",
+				"type" : "bool",
+				"value" : true
+			},
+			"reactiveabberation" : 
+			{
+				"order" : 102,
+				"text" : "Reactive Abberation",
+				"type" : "bool",
+				"value" : true
+			},
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0.7647058823529411 0 1"
+			},
+			"smallanalogclock" : 
+			{
+				"order" : 104,
+				"text" : "Small Analog Clock",
+				"type" : "bool",
+				"value" : false
+			}
+		},
+		"supportsaudioprocessing" : true
+	},
+	"preview" : "preview.jpg",
+	"tags" : [ "Cyberpunk" ],
+	"title" : "Neon Cyber Skeleton [Audio Responsive]",
+	"type" : "Scene",
+	"version" : 3,
+	"visibility" : "public",
+	"workshopid" : "2210521967",
+	"workshopurl" : "steam://url/CommunityFilePage/2210521967"
+}

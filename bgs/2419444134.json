@@ -1,0 +1,64 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "[img]https://steamuserimages-a.akamaihd.net/ugc/790855791821413654/C7875787C361E91E787CFD993B3378F07CF65E1F/[/img]\n\n\n[h1][b]IMPORTANT:[/b][/h1]\n\n[i][u]These wallpapers were not  drawn by me. If any artist doesn't want these wallpapers here, please contact me and I'll remove them.Thanks for understanding.[/u][/i]\n\n\n🖌️ Artist of Character:\nhttps://yande.re/post?tags=yasu_%28segawahiroyasu%29\nSource: https://yande.re/post/show/752865\n\n🎵 Song:\nVictor Cooper - Windwalker (No Copyright Music)\nMusic provided by Tunetank.\nFree Download:  https://bit.ly/3aUXXG6​\nVideo Link: https://youtu.be/vNsbeLrw5Ig\n\n[u]Thank you for supporting, have fun💜[/u]",
+	"file" : "scene.json",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"audioreactivedots" : 
+			{
+				"index" : 0,
+				"order" : 100,
+				"text" : "Audio Reactive Dots",
+				"type" : "bool",
+				"value" : true
+			},
+			"audioreactivestars" : 
+			{
+				"index" : 3,
+				"order" : 103,
+				"text" : "Audio Reactive Stars",
+				"type" : "bool",
+				"value" : true
+			},
+			"fog" : 
+			{
+				"index" : 1,
+				"order" : 101,
+				"text" : "Fog",
+				"type" : "bool",
+				"value" : true
+			},
+			"fog2" : 
+			{
+				"index" : 2,
+				"order" : 102,
+				"text" : "Fog 2",
+				"type" : "bool",
+				"value" : true
+			},
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0.14901960784313725 0.0392156862745098 0.1607843137254902"
+			},
+			"vhsneoncircle" : 
+			{
+				"index" : 4,
+				"order" : 104,
+				"text" : "VHS (neon circle)",
+				"type" : "bool",
+				"value" : true
+			}
+		},
+		"supportsaudioprocessing" : true
+	},
+	"preview" : "preview.jpg",
+	"tags" : [ "Game" ],
+	"title" : "Nier Reincarnation - Akeha",
+	"type" : "scene",
+	"version" : 0
+}

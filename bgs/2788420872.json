@@ -1,0 +1,62 @@
+{
+	"contentrating" : "Everyone",
+	"file" : "scene.json",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"particlesonoff" : 
+			{
+				"index" : 1,
+				"order" : 101,
+				"text" : "Particles On/Off",
+				"type" : "bool",
+				"value" : true
+			},
+			"rainonoff" : 
+			{
+				"index" : 4,
+				"order" : 104,
+				"text" : "Rain On/Off",
+				"type" : "bool",
+				"value" : true
+			},
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0.14118 0.19608 0.25490"
+			},
+			"shakeonoff" : 
+			{
+				"index" : 0,
+				"order" : 100,
+				"text" : "Shake On/Off",
+				"type" : "bool",
+				"value" : true
+			},
+			"shimmer" : 
+			{
+				"index" : 2,
+				"order" : 102,
+				"text" : "Shimmer",
+				"type" : "bool",
+				"value" : true
+			},
+			"swordlight" : 
+			{
+				"index" : 3,
+				"order" : 103,
+				"text" : "Sword Light",
+				"type" : "bool",
+				"value" : true
+			}
+		}
+	},
+	"preview" : "preview.gif",
+	"tags" : [ "Game" ],
+	"title" : "The Witcher Geralt Concept [4K]",
+	"type" : "scene",
+	"version" : 0
+}

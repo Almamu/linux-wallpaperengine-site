@@ -1,0 +1,34 @@
+{
+	"approved" : true,
+	"contentrating" : "Everyone",
+	"description" : "My version of the animation of this art\r\n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\r\n[b]My trade. I will be glad of any thing.[/b] [url=https://steamcommunity.com/tradeoffer/new/?partner=862204741&token=3AzwwKRE]Send a trade[/url]\r\n📢Check out all my Wallpapers [url=https://steamcommunity.com/id/f1kst3r/myworkshopfiles/]𝐇𝐄𝐑𝐄[/url] \r\n📈From now on I make personal Wallpaper! [url=https://f1kster.wixsite.com/wallpapersgalery/order-wallpaper]𝐎𝐑𝐃𝐄𝐑  𝐍𝐎𝐖[/url]!\r\n💡Don't forget to visit my site: https://f1kster.wixsite.com/wallpapersgalery\r\n\r\n🎵Music: Creative Self - A Forgotten Place \r\n📑Image Artist: [url=https://www.artstation.com/adams3dart]Tom Adams[/url]\r\n\r\n🎁[url=https://f1kster.wixsite.com/wallpapersgalery/donate]𝐃𝐎𝐍𝐀𝐓𝐈𝐍𝐆[/url] me for a Christmas\r\n\r\n\r\n🎇[b]You can follow me 𝐇𝐄𝐑𝐄:\r\n ❛  [url=https://twitter.com/FIKST3R]𝐓𝐖𝐈𝐓𝐓𝐄𝐑[/url]  ❛  [url=https://www.reddit.com/user/f1kster]𝐑𝐄𝐃𝐃𝐈𝐓[/url]  ❛  [url=https://www.youtube.com/channel/UCCFkKRKsH_YWj1MNnNPerNQ?view_as=subscriber]𝐘𝐎𝐔𝐓𝐔𝐁𝐄[/url] ❛  [url=https://vk.com/topw4llp4p3rs]𝐕𝐊 𝐆𝐑𝐎𝐔𝐏[/url] [/b]\r\n[img]https://i.imgur.com/MLLtmSG.gif[/img]\r\n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●",
+	"file" : "scene.json",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"moonlights" : 
+			{
+				"order" : 100,
+				"text" : "Moon Lights",
+				"type" : "bool",
+				"value" : true
+			},
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0.106 0.341 0.455"
+			}
+		}
+	},
+	"preview" : "preview.gif",
+	"tags" : [ "Nature" ],
+	"title" : "Winter Сomfy",
+	"type" : "scene",
+	"version" : 1,
+	"visibility" : "public",
+	"workshopid" : "2282120494",
+	"workshopurl" : "steam://url/CommunityFilePage/2282120494"
+}

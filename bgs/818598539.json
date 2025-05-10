@@ -1,0 +1,23 @@
+{
+	"description" : "2.09小小的更新一下修复过渡的问题\n\n滚回1080p。需要4k的 网盘链接:  https://pan.baidu.com/s/1jHRHJuQ 密码: d5pw\n注意两个视屏名字不一样，如果你要替换需要把下载的4k版本名字改掉\n12.22重新解包压制视屏，伪4k \n关于视屏清晰度，视频来源是游戏本体解包，只有1080p但是码率高达29m，所以我强行拉到4k，请拥有4k显示器的盆友留下你的反馈，如果效果满意我就保留这个伪4k，如果效果依旧不满意。。。。。。我只能说我能怎么办啊。我也很绝望啊.jpg \n巫师3血与酒主菜单\n视频时长02:",
+	"file" : "The Witcher 3- Blood and Wine Main Menu巫师3血与酒主菜单by：SheepLoveU.mp4",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0 0 0"
+			}
+		}
+	},
+	"preview" : "preview.jpg",
+	"tags" : [ "Game" ],
+	"title" : "The Witcher 3- Blood and Wine Main Menu巫师3血与酒主菜单（1080P）",
+	"type" : "video",
+	"visibility" : "public",
+	"workshopid" : 818598539
+}

@@ -1,0 +1,32 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "League of Legends / Audio Visualizer 1920x1080p 60fps\n\nHello! This is my new wallpaper on Wallpaper UI.\nand please rate this wallpaper! \n-Ri CK/Vengeance",
+	"file" : "scene.json",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0.345 0.176 0.325"
+			},
+			"vhs_effects" : 
+			{
+				"order" : 100,
+				"text" : "VHS Effects",
+				"type" : "bool",
+				"value" : true
+			}
+		},
+		"supportsaudioprocessing" : true
+	},
+	"preview" : "preview.jpg",
+	"tags" : [ "Game" ],
+	"title" : "League of Legends / Audio Visualizer 1920x1080p 60fps [V2 Update]",
+	"type" : "scene",
+	"visibility" : "public",
+	"workshopid" : "1766184366"
+}
