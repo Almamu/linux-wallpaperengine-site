@@ -93,22 +93,13 @@ export const Footer = () => {
                   Contribute
                 </Link>
               </li>
-              <li>
-                <Link
-                  href="https://discord.gg/linux-wallpaperengine"
-                  className="text-gray-400 transition-colors duration-300 hover:text-primary-400"
-                  external>
-                  Discord
-                </Link>
-              </li>
             </ul>
           </div>
         </div>
 
         <div className="mt-10 flex flex-col items-center justify-between border-t border-gray-800 pt-6 md:flex-row">
           <p className="mb-4 text-sm text-gray-500 md:mb-0">
-            © 2025 linux-wallpaperengine. Not affiliated with Wallpaper Engine
-            or Steam.
+            Not affiliated with Wallpaper Engine or Steam.
           </p>
           <div className="flex items-center text-sm text-gray-500">
             <span className="flex items-center">

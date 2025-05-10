@@ -1,0 +1,39 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "贝拉50万粉纪念\r\n星空下的少女眺望着满天的繁星，思绪飘了很远很远：她又想到了那个曾在受伤的夜里独自煎熬的小女孩。想到了…\r\n“嘿！该走了拉姐。”一道声音将她扯回现实，她回头看了看挥手示意知道了，随即跳下车用力晃了晃头，“在想什么呢？我已经和我的贝极星相遇了，他们正在等着我呢。”少女对着夜空的闪烁眨了眨眼，“是吧？”她转身向着那个站在星空下的女孩走去。\r\n“她们也一直陪伴着我呢…”\r\n\r\n是星星✨，它闪于夜空照亮黑暗驱散阴霾。\r\nThe stars are tracking to you tonight.\r\n画师：b站 @黎禄R6\r\nhttps://t.bilibili.com/637867068055617590",
+	"file" : "scene.json",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"kiraalpha" : 
+			{
+				"fraction" : true,
+				"index" : 0,
+				"max" : 1,
+				"min" : 0,
+				"order" : 100,
+				"precision" : 2,
+				"step" : 0.1,
+				"text" : "文字透明度",
+				"type" : "slider",
+				"value" : 1
+			},
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0 0 0"
+			}
+		}
+	},
+	"preview" : "preview.jpg",
+	"tags" : [ "Anime" ],
+	"title" : "[a-soul] asoul 贝拉 kira 流星",
+	"type" : "Scene",
+	"version" : 12,
+	"visibility" : "public",
+	"workshopid" : "2781333063",
+	"workshopurl" : "steam://url/CommunityFilePage/2781333063"
+}

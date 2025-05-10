@@ -1,0 +1,23 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "明日方舟EP PR光流补帧 60 自制",
+	"file" : "60FPS铃兰《明日方舟》EP - Lily of the Valley -.mp4",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0 0 0"
+			}
+		}
+	},
+	"preview" : "preview.jpg",
+	"tags" : [ "Anime" ],
+	"title" : "60FPS铃兰《明日方舟》EP - Lily of the Valley -",
+	"type" : "video",
+	"version" : 0
+}

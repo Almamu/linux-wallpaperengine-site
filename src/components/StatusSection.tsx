@@ -17,7 +17,7 @@ interface StatusCategoryProps {
 const StatusIcon = ({ status }: { status: StatusType }) => {
   switch (status) {
     case 'supported':
-      return <CheckCircle size={20} className="text-primary-400" />;
+      return <CheckCircle size={20} className="text-green-400" />;
     case 'partial':
       return <AlertCircle size={20} className="text-yellow-400" />;
     case 'planned':
@@ -32,7 +32,7 @@ const StatusIcon = ({ status }: { status: StatusType }) => {
 const StatusLabel = ({ status }: { status: StatusType }) => {
   switch (status) {
     case 'supported':
-      return <span className="text-primary-400">Supported</span>;
+      return <span className="text-green-400">Supported</span>;
     case 'partial':
       return <span className="text-yellow-400">Partial Support</span>;
     case 'planned':
@@ -79,53 +79,38 @@ export const StatusSection = () => {
     {
       feature: 'Video Wallpapers',
       status: 'supported' as StatusType,
-      details: 'Full support for mp4, webm and other video formats',
+      details: 'Full support through MPV',
     },
     {
       feature: 'Scene Wallpapers',
       status: 'partial' as StatusType,
-      details: 'Most effects supported, some complex scenes may have issues',
+      details:
+        'Image effects, user properties and complex effects. Particles not supported',
     },
     {
       feature: 'Web Wallpapers',
       status: 'partial' as StatusType,
-      details: 'Basic support, some interactive elements may not work properly',
-    },
-    {
-      feature: 'Application Wallpapers',
-      status: 'unsupported' as StatusType,
+      details: 'Basic support, settings not implemented',
     },
   ];
 
   const platforms = [
     {
       feature: 'X11',
-      status: 'supported' as StatusType,
+      status: 'partial' as StatusType,
+      details: 'As long as no compositor is drawing to the root screen',
     },
     {
       feature: 'Wayland',
       status: 'partial' as StatusType,
-      details: 'Basic support via XWayland, native support in development',
-    },
-    {
-      feature: 'KDE',
-      status: 'supported' as StatusType,
-    },
-    {
-      feature: 'GNOME',
-      status: 'supported' as StatusType,
-    },
-    {
-      feature: 'i3/Sway',
-      status: 'supported' as StatusType,
+      details: 'Layer Shell required (wlroots)',
     },
   ];
 
   const features = [
     {
       feature: 'Audio Reactive',
-      status: 'partial' as StatusType,
-      details: 'Works with PulseAudio, support for PipeWire in development',
+      status: 'supported' as StatusType,
     },
     {
       feature: 'Multiple Monitors',
@@ -134,11 +119,8 @@ export const StatusSection = () => {
     {
       feature: 'Steam Workshop',
       status: 'supported' as StatusType,
-    },
-    {
-      feature: 'Customization Settings',
-      status: 'partial' as StatusType,
-      details: 'Core settings implemented, advanced options in development',
+      description:
+        'Detects available backgrounds downloaded to your Steam folder',
     },
   ];
 
@@ -158,23 +140,6 @@ export const StatusSection = () => {
           <StatusCategory title="Wallpaper Types" items={wallpaperTypes} />
           <StatusCategory title="Desktop Environments" items={platforms} />
           <StatusCategory title="Features & Integrations" items={features} />
-        </div>
-
-        <div className="mt-12 rounded-lg border border-gray-700 bg-gray-800 p-5">
-          <div className="mb-4 flex items-start">
-            <Clock size={24} className="mr-3 mt-1 text-primary-400" />
-            <div>
-              <h3 className="text-xl font-semibold text-white">Last Updated</h3>
-              <p className="mt-1 text-gray-300">
-                Status information last updated on April 15, 2025
-              </p>
-            </div>
-          </div>
-          <p className="text-gray-400">
-            This status board is updated regularly as development progresses.
-            Check the GitHub repository for the most current information or to
-            contribute to the project.
-          </p>
         </div>
       </div>
     </section>

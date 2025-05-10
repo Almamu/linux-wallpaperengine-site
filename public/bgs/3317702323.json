@@ -1,0 +1,28 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "Animated wallpapers. Date, day, clock.",
+	"file" : "scene.json",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0.79608 0.53333 0.50980"
+			}
+		}
+	},
+	"preview" : "preview.jpg",
+	"ratingsex" : "none",
+	"ratingviolence" : "none",
+	"tags" : [ "Landscape" ],
+	"title" : "Samurai's paradise",
+	"type" : "scene",
+	"version" : 1,
+	"visibility" : "public",
+	"workshopid" : "3317702323",
+	"workshopurl" : "steam://url/CommunityFilePage/3317702323"
+}

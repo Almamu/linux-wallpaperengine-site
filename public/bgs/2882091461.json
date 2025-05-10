@@ -1,0 +1,60 @@
+{
+	"approved" : true,
+	"contentrating" : "Questionable",
+	"description" : "Artwork:\r\nArtist: [url=https://twitter.com/MitsuArt_]Mitsu_art[/url];\r\nSourse: [url=https://twitter.com/MitsuArt_/status/1586164346941763585]Image[/url].",
+	"file" : "scene.json",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"bodymovements" : 
+			{
+				"index" : 1,
+				"order" : 101,
+				"text" : "Body movements",
+				"type" : "bool",
+				"value" : true
+			},
+			"dustmotes" : 
+			{
+				"index" : 0,
+				"order" : 100,
+				"text" : "Dust motes",
+				"type" : "bool",
+				"value" : true
+			},
+			"hairmovement" : 
+			{
+				"index" : 3,
+				"order" : 103,
+				"text" : "Hair movement",
+				"type" : "bool",
+				"value" : true
+			},
+			"lightshafts" : 
+			{
+				"index" : 2,
+				"order" : 102,
+				"text" : "Light shafts",
+				"type" : "bool",
+				"value" : true
+			},
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0 0 0"
+			}
+		},
+		"supportsaudioprocessing" : true
+	},
+	"preview" : "preview.gif",
+	"tags" : [ "Anime" ],
+	"title" : "[SFW] Uta (One Piece)",
+	"type" : "scene",
+	"version" : 5,
+	"visibility" : "public",
+	"workshopid" : "2882091461",
+	"workshopurl" : "steam://url/CommunityFilePage/2882091461"
+}

@@ -1,0 +1,23 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "Portal 3 - pixelart scene\nsize: 2000x1130\n\nNFT: https://tryshowtime.com/aleha_84\nIG: https://www.instagram.com/aleha_84/\nTwitter: https://twitter.com/84Aleha\nTikTok - https://www.tiktok.com/@aleha_84\nNewgrounds - https://aleha84.newgrounds.com/\nVK - https://vk.com/aleha_84\n\nMy other links: https://linktr.ee/aleha_84",
+	"file" : "Portal3_short_2000.mp4",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0 0 0"
+			}
+		}
+	},
+	"preview" : "preview.gif",
+	"tags" : [ "Pixel art" ],
+	"title" : "Portal 3",
+	"type" : "video",
+	"version" : 0
+}

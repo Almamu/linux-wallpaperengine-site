@@ -1,4 +1,4 @@
-import { Download, Github, Menu, X } from 'lucide-react';
+import { Github, Menu, X } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
 import { Link } from './ui/Link.tsx';
@@ -57,18 +57,9 @@ export const Header = () => {
               <li>
                 <Link
                   href="https://github.com/Almamu/linux-wallpaperengine"
-                  className="nav-link flex items-center"
-                  external>
+                  className="flex items-center rounded-md bg-primary-500 px-4 py-2 text-white transition-colors duration-300 hover:bg-primary-600">
                   <Github size={16} className="mr-1" />
                   GitHub
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="#download"
-                  className="flex items-center rounded-md bg-primary-500 px-4 py-2 text-white transition-colors duration-300 hover:bg-primary-600">
-                  <Download size={16} className="mr-1" />
-                  Download
                 </Link>
               </li>
             </ul>
@@ -110,18 +101,10 @@ export const Header = () => {
             </Link>
             <Link
               href="https://github.com/Almamu/linux-wallpaperengine"
-              className="mobile-nav-link flex items-center"
-              external
+              className="mobile-nav-link flex items-center justify-center bg-primary-500 hover:bg-primary-600"
               onClick={() => setMobileMenuOpen(false)}>
               <Github size={16} className="mr-2" />
               GitHub
-            </Link>
-            <Link
-              href="#download"
-              className="mobile-nav-link flex items-center justify-center bg-primary-500 hover:bg-primary-600"
-              onClick={() => setMobileMenuOpen(false)}>
-              <Download size={16} className="mr-2" />
-              Download
             </Link>
           </div>
         </div>

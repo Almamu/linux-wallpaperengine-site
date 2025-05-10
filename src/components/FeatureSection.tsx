@@ -1,4 +1,4 @@
-import { CheckCircle2, Image, Layers, Monitor, Video, Zap } from 'lucide-react';
+import { Image, Layers, Monitor, MonitorCheckIcon, Video } from 'lucide-react';
 import React from 'react';
 
 interface FeatureCardProps {
@@ -10,8 +10,10 @@ interface FeatureCardProps {
 const FeatureCard = ({ icon, title, description }: FeatureCardProps) => {
   return (
     <div className="hover:bg-gray-750 transform rounded-xl border border-gray-700 bg-gray-800 p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
-      <div className="mb-4 text-primary-400">{icon}</div>
-      <h3 className="mb-2 text-xl font-semibold text-white">{title}</h3>
+      <div className="mb-4 text-primary-400 flex gap-4">
+        {icon}
+        <h3 className="mb-2 text-xl font-semibold text-white">{title}</h3>
+      </div>
       <p className="leading-relaxed text-gray-300">{description}</p>
     </div>
   );
@@ -34,14 +36,7 @@ export const FeatureSection = () => {
     {
       icon: <Layers size={32} />,
       title: 'Web Wallpapers',
-      description:
-        'Support for web-based wallpapers using a browser rendering engine.',
-    },
-    {
-      icon: <Zap size={32} />,
-      title: 'High Performance',
-      description:
-        'Optimized for low resource usage and high performance across distributions.',
+      description: 'Support for web-based wallpapers using CEF.',
     },
     {
       icon: <Monitor size={32} />,
@@ -50,10 +45,10 @@ export const FeatureSection = () => {
         'Seamless support for multiple monitors with different wallpapers.',
     },
     {
-      icon: <CheckCircle2 size={32} />,
-      title: 'Steam Workshop',
+      icon: <MonitorCheckIcon size={32} />,
+      title: 'Wayland & X11',
       description:
-        'Access and download wallpapers directly from Steam Workshop.',
+        'Support for Wayland through Layer Shell and X11 desktop environments without compositor.',
     },
   ];
 
@@ -65,8 +60,8 @@ export const FeatureSection = () => {
             Feature <span className="text-primary-400">Highlights</span>
           </h2>
           <p className="mx-auto max-w-3xl text-xl text-gray-300">
-            Discover what makes linux-wallpaperengine the perfect solution for
-            bringing your desktop to life
+            Enjoy existing animated desktop backgrounds from the official
+            Windows version on Linux
           </p>
         </div>
 

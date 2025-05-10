@@ -35,9 +35,10 @@ export const Hero = () => {
 
           <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
             <Link
-              href="#download"
+              href="#installation"
               className="flex w-full items-center justify-center rounded-lg bg-primary-500 px-8 py-3 font-medium text-white transition-colors duration-300 hover:bg-primary-600 sm:w-auto">
-              Download Now <ArrowRight size={18} className="ml-2" />
+              Installation instructions{' '}
+              <ArrowRight size={18} className="ml-2" />
             </Link>
 
             <Link

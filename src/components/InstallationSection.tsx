@@ -1,10 +1,4 @@
-import {
-  Check,
-  Copy,
-  Mountain as Ubuntu,
-  Redo as Fedora,
-  Terminal,
-} from 'lucide-react';
+import { Check, Copy, Terminal } from 'lucide-react';
 import React, { PropsWithChildren, useState } from 'react';
 
 interface TabProps {
@@ -73,7 +67,7 @@ const CommandBlock = ({ children }: PropsWithChildren) => {
 };
 
 export const InstallationSection = () => {
-  const [activeTab, setActiveTab] = useState('ubuntu');
+  const [activeTab, setActiveTab] = useState('arch');
 
   return (
     <section id="installation" className="bg-gray-900 py-20">
@@ -91,18 +85,6 @@ export const InstallationSection = () => {
         <div className="mx-auto max-w-4xl rounded-xl border border-gray-700 bg-gray-800 p-6 shadow-xl">
           <div className="mb-6 flex flex-wrap gap-2">
             <Tab
-              active={activeTab === 'ubuntu'}
-              onClick={() => setActiveTab('ubuntu')}
-              icon={<Ubuntu size={18} />}>
-              Ubuntu/Debian
-            </Tab>
-            <Tab
-              active={activeTab === 'fedora'}
-              onClick={() => setActiveTab('fedora')}
-              icon={<Fedora size={18} />}>
-              Fedora/RHEL
-            </Tab>
-            <Tab
               active={activeTab === 'arch'}
               onClick={() => setActiveTab('arch')}
               icon={<ArchIcon />}>
@@ -117,58 +99,6 @@ export const InstallationSection = () => {
           </div>
 
           <div className="mt-6">
-            {activeTab === 'ubuntu' && (
-              <>
-                <h3 className="mb-4 text-xl font-semibold text-white">
-                  Installing on Ubuntu/Debian
-                </h3>
-                <p className="mb-4 text-gray-300">
-                  1. Install required dependencies:
-                </p>
-                <CommandBlock>
-                  sudo apt update && sudo apt install -y build-essential cmake
-                  libavcodec-dev libavformat-dev libavutil-dev libswscale-dev
-                  libglm-dev libglfw3-dev libpulse-dev libx11-dev libxrandr-dev
-                  libxinerama-dev libxi-dev libxcursor-dev
-                </CommandBlock>
-                <p className="mb-4 text-gray-300">
-                  2. Install linux-wallpaperengine using the PPA:
-                </p>
-                <CommandBlock>
-                  sudo add-apt-repository
-                  ppa:wallpaperengine/linux-wallpaperengine sudo apt update sudo
-                  apt install linux-wallpaperengine
-                </CommandBlock>
-                <p className="mb-4 text-gray-300">3. Run the application:</p>
-                <CommandBlock>wallpaperengine</CommandBlock>
-              </>
-            )}
-
-            {activeTab === 'fedora' && (
-              <>
-                <h3 className="mb-4 text-xl font-semibold text-white">
-                  Installing on Fedora/RHEL
-                </h3>
-                <p className="mb-4 text-gray-300">
-                  1. Install required dependencies:
-                </p>
-                <CommandBlock>
-                  sudo dnf install -y gcc-c++ cmake ffmpeg-devel glm-devel
-                  glfw-devel pulseaudio-libs-devel libX11-devel libXrandr-devel
-                  libXinerama-devel libXi-devel libXcursor-devel
-                </CommandBlock>
-                <p className="mb-4 text-gray-300">
-                  2. Install linux-wallpaperengine from COPR:
-                </p>
-                <CommandBlock>
-                  sudo dnf copr enable wallpaperengine/linux-wallpaperengine
-                  sudo dnf install linux-wallpaperengine
-                </CommandBlock>
-                <p className="mb-4 text-gray-300">3. Run the application:</p>
-                <CommandBlock>wallpaperengine</CommandBlock>
-              </>
-            )}
-
             {activeTab === 'arch' && (
               <>
                 <h3 className="mb-4 text-xl font-semibold text-white">
@@ -180,7 +110,7 @@ export const InstallationSection = () => {
                 </p>
                 <CommandBlock>yay -S linux-wallpaperengine-git</CommandBlock>
                 <p className="mb-4 text-gray-300">2. Run the application:</p>
-                <CommandBlock>wallpaperengine</CommandBlock>
+                <CommandBlock>linux-wallpaperengine</CommandBlock>
               </>
             )}
 
@@ -191,46 +121,65 @@ export const InstallationSection = () => {
                 </h3>
                 <p className="mb-4 text-gray-300">1. Clone the repository:</p>
                 <CommandBlock>
-                  git clone https://github.com/Almamu/linux-wallpaperengine.git
-                  cd linux-wallpaperengine
+                  git clone --recurse-submodules
+                  https://github.com/Almamu/linux-wallpaperengine.git cd
+                  linux-wallpaperengine
                 </CommandBlock>
                 <p className="mb-4 text-gray-300">
                   2. Install required dependencies (Ubuntu/Debian example):
                 </p>
                 <CommandBlock>
-                  sudo apt update && sudo apt install -y build-essential cmake
+                  sudo apt-get update && sudo apt-get install build-essential
+                  cmake libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev
+                  libgl-dev libglew-dev freeglut3-dev libsdl2-dev liblz4-dev
                   libavcodec-dev libavformat-dev libavutil-dev libswscale-dev
-                  libglm-dev libglfw3-dev libpulse-dev libx11-dev libxrandr-dev
-                  libxinerama-dev libxi-dev libxcursor-dev
+                  libxxf86vm-dev libglm-dev libglfw3-dev libmpv-dev mpv libmpv2
+                  libpulse-dev libpulse0 libfftw3-dev
                 </CommandBlock>
                 <p className="mb-4 text-gray-300">3. Build the project:</p>
                 <CommandBlock>
-                  mkdir build && cd build cmake .. make -j$(nproc)
+                  mkdir build && cd build && cmake .. && make
                 </CommandBlock>
                 <p className="mb-4 text-gray-300">4. Run the application:</p>
-                <CommandBlock>./wallpaperengine</CommandBlock>
+                <CommandBlock>
+                  cd output && ./linux-wallpaperengine
+                </CommandBlock>
               </>
             )}
           </div>
 
           <div className="bg-gray-750 mt-8 rounded-md border border-gray-700 p-4">
             <h4 className="mb-2 flex items-center font-semibold text-white">
-              <Terminal size={18} className="mr-2 text-primary-400" />{' '}
-              Additional Setup
+              <Terminal size={18} className="mr-2 text-primary-400" /> Final
+              steps
             </h4>
             <p className="mb-2 text-gray-300">
-              After installation, you'll need to set up Steam Workshop
-              integration:
+              After installation, you'll need to install official Wallpaper
+              Engine through Steam's Proton so base assets and your subscribed
+              backgrounds are available.
             </p>
             <ol className="list-inside list-decimal space-y-2 pl-4 text-gray-300">
               <li>Make sure Steam is installed on your system</li>
-              <li>Open linux-wallpaperengine and go to Settings</li>
-              <li>Set your Steam workshop directory path</li>
+              <li>
+                Open your library and right click -{'>'} Properties on Wallpaper
+                Engine
+              </li>
+              <li>
+                Go to Compatibility and Enable Proton and finally click install
+              </li>
               <li>
                 Subscribe to wallpapers through Steam Workshop to make them
                 available for linux-wallpaperengine
               </li>
             </ol>
+            <p className="mt-2 text-gray-300">
+              For more information please check the{' '}
+              <a
+                className="text-primary-400"
+                href="https://github.com/Almamu/linux-wallpaperengine/blob/main/README.md">
+                README.md
+              </a>
+            </p>
           </div>
         </div>
       </div>

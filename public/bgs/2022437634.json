@@ -1,0 +1,69 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "Music: [Arknights OST] - Frostnovadie",
+	"file" : "scene.json",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"bird_movement_on_off" : 
+			{
+				"order" : 105,
+				"text" : "Bird movement On / Off",
+				"type" : "bool",
+				"value" : false
+			},
+			"fog_left_on_off" : 
+			{
+				"order" : 100,
+				"text" : "Fog: Left - On / Off",
+				"type" : "bool",
+				"value" : false
+			},
+			"fog_right_on_off" : 
+			{
+				"order" : 101,
+				"text" : "Fog: Right - On / Off",
+				"type" : "bool",
+				"value" : false
+			},
+			"lantern_power" : 
+			{
+				"fraction" : true,
+				"max" : 2,
+				"min" : 0,
+				"order" : 104,
+				"precision" : 2,
+				"step" : 0.10000000000000001,
+				"text" : "Lantern power",
+				"type" : "slider",
+				"value" : 0.65000000000000002
+			},
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0.624 0.306 0.231"
+			},
+			"snow_on_off" : 
+			{
+				"order" : 102,
+				"text" : "Snow On / Off",
+				"type" : "bool",
+				"value" : true
+			},
+			"steam_on_off" : 
+			{
+				"order" : 103,
+				"text" : "Steam On / Off",
+				"type" : "bool",
+				"value" : true
+			}
+		}
+	},
+	"preview" : "preview.gif",
+	"tags" : [ "Game" ],
+	"title" : "Projekt Red - Arknights (drawn by Junpaku Karen)",
+	"type" : "scene"
+}

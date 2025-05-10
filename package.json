@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "prepare": "husky"
+    "prepare": "husky",
+    "bgs:update": "node bin/update_backgrounds.cjs"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.5",

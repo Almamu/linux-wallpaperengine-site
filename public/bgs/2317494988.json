@@ -1,0 +1,66 @@
+{
+	"approved" : true,
+	"contentrating" : "Questionable",
+	"description" : "[h1] ---------------------------------[/h1]\r\nMassive thanks to [url=https://steamcommunity.com/id/drioyard/myworkshopfiles/]Drioyard[/url] for helping with \r\nphotoshop elements\r\n[h1] ---------------------------------[/h1]\r\n[b]🎨 Artwork by[url=https://www.artstation.com/nixeu] NIXEU[/url][/b]\r\n[h1] ---------------------------------[/h1]\r\n[h1]Tags[/h1]\r\n[h1] ---------------------------------[/h1]\r\n- Girl \r\n- Anime\r\n- Robot\r\n- Visualizer\r\n- City\r\n- Neon \r\n- Music\r\n[h1] ---------------------------------[/h1]\r\n",
+	"file" : "scene.json",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"blur" : 
+			{
+				"fraction" : true,
+				"index" : 1,
+				"max" : 1,
+				"min" : 0,
+				"order" : 101,
+				"precision" : 4,
+				"step" : 0.001,
+				"text" : "Blur",
+				"type" : "slider",
+				"value" : 1
+			},
+			"particles" : 
+			{
+				"index" : 0,
+				"order" : 100,
+				"text" : "Particles",
+				"type" : "bool",
+				"value" : true
+			},
+			"schemecolor" : 
+			{
+				"order" : 100,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0.8470588235294118 0.8862745098039215 1"
+			},
+			"visualizer" : 
+			{
+				"condition" : "visualizer1.value",
+				"index" : 3,
+				"order" : 103,
+				"text" : "Visualizer Color",
+				"type" : "color",
+				"value" : "0.49411764705882355 0.5647058823529412 1"
+			},
+			"visualizer1" : 
+			{
+				"index" : 2,
+				"order" : 102,
+				"text" : "Visualizer",
+				"type" : "bool",
+				"value" : true
+			}
+		},
+		"supportsaudioprocessing" : true
+	},
+	"preview" : "preview.gif",
+	"tags" : [ "Cyberpunk" ],
+	"title" : "Cyberpunk 2077",
+	"type" : "scene",
+	"version" : 9,
+	"visibility" : "public",
+	"workshopid" : "2317494988",
+	"workshopurl" : "steam://url/CommunityFilePage/2317494988"
+}

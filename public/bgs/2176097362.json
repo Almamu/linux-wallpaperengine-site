@@ -1,0 +1,233 @@
+{
+	"approved" : true,
+	"contentrating" : "Everyone",
+	"description" : "[h1] ---------------------------------[/h1]\r\nShout out to [url=https://steamcommunity.com/profiles/76561198106662921]Shockz [/url] for the disco floor asset!\r\n[h1] ---------------------------------[/h1]\r\n[b]🎨Dancing Bunnies by [url=https://yoyothericecorpse.com/] yoyothericecorpse[/url][/b]\r\n[h1] ---------------------------------[/h1]\r\n[h1]Tags[/h1]\r\n[h1] ---------------------------------[/h1]\r\n- Japan\r\n- Particles\r\n- Audio Responsive \r\n- Cute\r\n- Simplistic\r\n- Minimal \r\n- Animal \r\n- Bass Drop\r\n- Visualizer\r\n[h1] ---------------------------------[/h1]",
+	"file" : "scene.json",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"audiocheckbox" : 
+			{
+				"condition" : "audioresponsivesettings.value",
+				"index" : 15,
+				"order" : 115,
+				"text" : "Bass Shake",
+				"type" : "bool",
+				"value" : true
+			},
+			"audioresponsivesettings" : 
+			{
+				"index" : 7,
+				"order" : 107,
+				"text" : "<hr><b><h3>Audio Responsive Settings</h3></b><hr>",
+				"type" : "bool",
+				"value" : false
+			},
+			"bassshake" : 
+			{
+				"condition" : "audioresponsivesettings.value",
+				"index" : 14,
+				"order" : 114,
+				"text" : "Bass Enlarge",
+				"type" : "bool",
+				"value" : true
+			},
+			"blur" : 
+			{
+				"condition" : "audioresponsivesettings.value",
+				"index" : 18,
+				"order" : 118,
+				"text" : "Blur",
+				"type" : "bool",
+				"value" : false
+			},
+			"chromatic" : 
+			{
+				"condition" : "audioresponsivesettings.value",
+				"index" : 12,
+				"order" : 112,
+				"text" : "Chromatic",
+				"type" : "bool",
+				"value" : true
+			},
+			"custom_text" : 
+			{
+				"condition" : "text.value ==1",
+				"index" : 2,
+				"order" : 102,
+				"text" : "<hr>Custom Text<hr>",
+				"type" : "textinput",
+				"value" : "DANCE CLUB"
+			},
+			"dance_move" : 
+			{
+				"index" : 0,
+				"options" : 
+				[
+					{
+						"label" : "Moic",
+						"value" : "1"
+					},
+					{
+						"label" : "Ken",
+						"value" : "2"
+					},
+					{
+						"label" : "Lenny",
+						"value" : "3"
+					},
+					{
+						"label" : "Dance Club",
+						"value" : "4"
+					}
+				],
+				"order" : 100,
+				"text" : "Dancer",
+				"type" : "combo",
+				"value" : "4"
+			},
+			"darkmode" : 
+			{
+				"condition" : "audioresponsivesettings.value",
+				"index" : 9,
+				"order" : 109,
+				"text" : "RBG Bunny",
+				"type" : "bool",
+				"value" : true
+			},
+			"darkmode9" : 
+			{
+				"index" : 3,
+				"order" : 103,
+				"text" : "<hr><b>Darkmode</b><hr>",
+				"type" : "bool",
+				"value" : false
+			},
+			"ledfloor" : 
+			{
+				"condition" : "audioresponsivesettings.value",
+				"index" : 16,
+				"order" : 116,
+				"text" : "Disco Floor",
+				"type" : "bool",
+				"value" : true
+			},
+			"notes" : 
+			{
+				"condition" : "audioresponsivesettings.value",
+				"index" : 10,
+				"order" : 110,
+				"text" : "Notes",
+				"type" : "bool",
+				"value" : true
+			},
+			"particles" : 
+			{
+				"condition" : "audioresponsivesettings.value",
+				"index" : 17,
+				"order" : 117,
+				"text" : "Particles",
+				"type" : "bool",
+				"value" : true
+			},
+			"pulse" : 
+			{
+				"condition" : "audioresponsivesettings.value",
+				"index" : 8,
+				"order" : 108,
+				"text" : "Flash",
+				"type" : "bool",
+				"value" : true
+			},
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "1 1 1"
+			},
+			"speaker" : 
+			{
+				"index" : 4,
+				"order" : 104,
+				"text" : "Speaker 1",
+				"type" : "bool",
+				"value" : true
+			},
+			"speaker_2" : 
+			{
+				"index" : 5,
+				"order" : 105,
+				"text" : "Speaker 2",
+				"type" : "bool",
+				"value" : true
+			},
+			"speaker_3" : 
+			{
+				"index" : 6,
+				"order" : 106,
+				"text" : "Speaker 3",
+				"type" : "bool",
+				"value" : true
+			},
+			"sync_icue" : 
+			{
+				"condition" : "audioresponsivesettings.value",
+				"index" : 11,
+				"order" : 111,
+				"text" : "<b>SYNC ICUE</b>",
+				"type" : "bool",
+				"value" : true
+			},
+			"text" : 
+			{
+				"index" : 1,
+				"options" : 
+				[
+					{
+						"label" : "Custom",
+						"value" : "1"
+					},
+					{
+						"label" : "Spotify",
+						"value" : "2"
+					}
+				],
+				"order" : 101,
+				"text" : "Text",
+				"type" : "combo",
+				"value" : "2"
+			},
+			"textpulse" : 
+			{
+				"condition" : "audioresponsivesettings.value",
+				"index" : 13,
+				"order" : 113,
+				"text" : "Text Pulse",
+				"type" : "bool",
+				"value" : true
+			},
+			"visualizer1" : 
+			{
+				"condition" : "audioresponsivesettings.value",
+				"index" : 19,
+				"order" : 119,
+				"text" : "Visualizer",
+				"type" : "bool",
+				"value" : false
+			}
+		},
+		"supportsaudioprocessing" : true
+	},
+	"preview" : "preview.gif",
+	"ratingsex" : "none",
+	"ratingviolence" : "none",
+	"tags" : [ "Music" ],
+	"title" : "Dance Club",
+	"type" : "scene",
+	"version" : 20,
+	"visibility" : "public",
+	"workshopid" : "2176097362",
+	"workshopurl" : "steam://url/CommunityFilePage/2176097362"
+}

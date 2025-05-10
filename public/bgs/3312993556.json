@@ -1,0 +1,215 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "本壁纸由bilibili@Cleverestの訆獸抠像及动效制作，@宇气愧补图，转载请注明原作者。\n图源《败犬女主太多了！》（日语原标题《負けヒロインが多すぎる！》）轻小说第一卷封面，侵权&问题反馈&优化建议请于bilibili私信@Cleverestの訆獸。\n\n关于壁纸出现卡顿、崩溃、元素显示不全、锯齿问题的解决说明：\n【首先请检查您的壁纸是否为最新版本，如果不是最新版本，请更新，再检查问题是否存在。如果问题仍旧，请尝试以下解决方法】\n1.低DPI屏幕出现的锯齿问题：请尝试开启Wallpaper Engine设置中的抗锯齿选项及壁纸设置中的锯齿优化。\n2.应用壁纸出现卡顿、崩溃、元素显示不全等性能问题：因本壁纸使用超分至8K的素材制作，所以部分性能较弱设备可能会出现性能问题。如果您出现了上述问题请尝试将Wallpaper Engine设置中的纹理分辨率改成自动或性能，并降低帧率、后处理、阴影等设置选项。\n【如果上述方法无法解决您的问题，请安装简介给出的性能优化版（会削减部分效果），如有其他问题，请于本壁纸下留言或bilibili私信@Cleverestの訆獸反馈】",
+	"file" : "scene.json",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"_24" : 
+			{
+				"condition" : "show_clock.value == true",
+				"index" : 6,
+				"order" : 106,
+				"text" : "使用24小时格式",
+				"type" : "bool",
+				"value" : true
+			},
+			"information_1" : 
+			{
+				"index" : 0,
+				"order" : 100,
+				"text" : "bilibili @Cleverestの訆獸 制作，喜欢的话可以赏个好评或者去B站给个一键三连吗？（づ￣3￣）づ╭❤～",
+				"type" : "bool",
+				"value" : true
+			},
+			"information_2" : 
+			{
+				"index" : 1,
+				"order" : 101,
+				"text" : "特别鸣谢bilibili @宇气愧 补图！φ(≧ω≦*)♪",
+				"type" : "bool",
+				"value" : true
+			},
+			"information_3" : 
+			{
+				"index" : 2,
+				"order" : 102,
+				"text" : "【如果壁纸出现卡顿、崩溃、元素显示不全、锯齿问题，请移步壁纸创意工坊页面简介查看解决方法】",
+				"type" : "bool",
+				"value" : true
+			},
+			"line" : 
+			{
+				"index" : 3,
+				"order" : 103,
+				"text" : "—————设置分割线—————",
+				"type" : "bool",
+				"value" : true
+			},
+			"low_dpi_aa" : 
+			{
+				"index" : 18,
+				"options" : 
+				[
+					{
+						"label" : "开",
+						"value" : "open"
+					},
+					{
+						"label" : "关",
+						"value" : "close"
+					}
+				],
+				"order" : 118,
+				"text" : "锯齿优化（开了可能会对低DPI屏幕出现的锯齿有一定改善，如果壁纸未出现很严重的锯齿不建议开）",
+				"type" : "combo",
+				"value" : "close"
+			},
+			"newproperty" : 
+			{
+				"condition" : "show_clock.value == true",
+				"index" : 7,
+				"order" : 107,
+				"text" : "显示秒数",
+				"type" : "bool",
+				"value" : true
+			},
+			"newproperty1" : 
+			{
+				"condition" : "show_clock.value == false",
+				"index" : 5,
+				"order" : 105,
+				"text" : "时间背景显示",
+				"type" : "bool",
+				"value" : true
+			},
+			"newproperty10" : 
+			{
+				"index" : 10,
+				"order" : 110,
+				"text" : "头发飘动",
+				"type" : "bool",
+				"value" : true
+			},
+			"newproperty2" : 
+			{
+				"index" : 9,
+				"order" : 109,
+				"text" : "鼠标轨迹",
+				"type" : "bool",
+				"value" : true
+			},
+			"newproperty3" : 
+			{
+				"condition" : "show_clock.value == true",
+				"index" : 8,
+				"order" : 108,
+				"text" : "光标纹波",
+				"type" : "bool",
+				"value" : true
+			},
+			"newproperty4" : 
+			{
+				"index" : 16,
+				"order" : 116,
+				"text" : "英文标题",
+				"type" : "bool",
+				"value" : true
+			},
+			"newproperty5" : 
+			{
+				"index" : 13,
+				"order" : 113,
+				"text" : "背景图形",
+				"type" : "bool",
+				"value" : true
+			},
+			"newproperty6" : 
+			{
+				"index" : 12,
+				"order" : 112,
+				"text" : "八奈见杏菜（背景）",
+				"type" : "bool",
+				"value" : true
+			},
+			"newproperty7" : 
+			{
+				"index" : 14,
+				"order" : 114,
+				"text" : "背景渐变",
+				"type" : "bool",
+				"value" : true
+			},
+			"newproperty8" : 
+			{
+				"index" : 15,
+				"order" : 115,
+				"text" : "左上几何",
+				"type" : "bool",
+				"value" : true
+			},
+			"newproperty9" : 
+			{
+				"index" : 11,
+				"order" : 111,
+				"text" : "手部摇动",
+				"type" : "bool",
+				"value" : true
+			},
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0.7411764705882353 0.8784313725490196 0.9647058823529412"
+			},
+			"show_clock" : 
+			{
+				"index" : 4,
+				"order" : 104,
+				"text" : "时间显示",
+				"type" : "bool",
+				"value" : true
+			},
+			"title_language" : 
+			{
+				"index" : 17,
+				"options" : 
+				[
+					{
+						"label" : "日语",
+						"value" : "ja_JP"
+					},
+					{
+						"label" : "简体中文",
+						"value" : "zh_CN"
+					},
+					{
+						"label" : "繁体中文",
+						"value" : "zh_HK_TW"
+					},
+					{
+						"label" : "不显示",
+						"value" : "not_show"
+					}
+				],
+				"order" : 117,
+				"text" : "标题样式",
+				"type" : "combo",
+				"value" : "ja_JP"
+			}
+		},
+		"supportsaudioprocessing" : true
+	},
+	"preview" : "preview.gif",
+	"ratingsex" : "none",
+	"ratingviolence" : "none",
+	"tags" : [ "Anime" ],
+	"title" : "【8K】八奈见杏菜_败犬女主太多了",
+	"type" : "scene",
+	"version" : 24,
+	"visibility" : "public",
+	"workshopid" : "3312993556",
+	"workshopurl" : "steam://url/CommunityFilePage/3312993556"
+}

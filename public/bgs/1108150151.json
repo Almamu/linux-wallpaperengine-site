@@ -1,0 +1,22 @@
+{
+	"description" : "original video https://www.youtube.com/watch?v=RfUwQsCzkgs",
+	"file" : "Other Places- The City (Mirror's Edge).mp4",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "1 1 1"
+			}
+		}
+	},
+	"preview" : "preview.jpg",
+	"tags" : [ "Game" ],
+	"title" : "Other Places: The City (Mirror's Edge)",
+	"type" : "video",
+	"visibility" : "public"
+}

@@ -1,0 +1,22 @@
+{
+	"description" : "Mirror's Edge Catalyst - City\n2560x1440\nAt max setting",
+	"file" : "Mirror's Edge  Catalyst 02.27.2017 - 22.12.50.07.mp4",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0 0 0"
+			}
+		}
+	},
+	"preview" : "preview.jpg",
+	"tags" : [ "Relaxing" ],
+	"title" : "Mirror's Edge Catalyst - City",
+	"type" : "video",
+	"visibility" : "public"
+}

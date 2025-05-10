@@ -1,0 +1,21 @@
+{
+	"file" : "Mirrors Edge - DreamScene [Live Wallpaper] - City View 1 (1080p).mp4",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "1 1 1"
+			}
+		}
+	},
+	"preview" : "preview.jpg",
+	"tags" : [ "Game" ],
+	"title" : "Mirror's Edge City view",
+	"type" : "video",
+	"visibility" : "public"
+}

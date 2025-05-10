@@ -1,0 +1,131 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "Original Artwork by Inhoso | https://twitter.com/Inhoso_art/status/1487159085002809353/photo/1\n\nSupport Me ^^ | https://www.youtube.com/channel/UCbj8v22GY4J6GbWKdyJq5mw",
+	"file" : "scene.json",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"backgrounddots" : 
+			{
+				"index" : 10,
+				"order" : 110,
+				"text" : "Background Dots",
+				"type" : "bool",
+				"value" : true
+			},
+			"customeyecolor" : 
+			{
+				"index" : 1,
+				"order" : 101,
+				"text" : "Custom Eye Color",
+				"type" : "bool",
+				"value" : true
+			},
+			"eyeblinking" : 
+			{
+				"index" : 4,
+				"order" : 104,
+				"text" : "Eye Blinking",
+				"type" : "bool",
+				"value" : true
+			},
+			"eyesmovementspeed" : 
+			{
+				"fraction" : true,
+				"index" : 5,
+				"max" : 2,
+				"min" : 0,
+				"order" : 105,
+				"precision" : 3,
+				"step" : 0.01,
+				"text" : "Eyes Movement Speed",
+				"type" : "slider",
+				"value" : 0.2
+			},
+			"headtilt" : 
+			{
+				"index" : 6,
+				"order" : 106,
+				"text" : "Head Tilt",
+				"type" : "bool",
+				"value" : true
+			},
+			"headtiltamount" : 
+			{
+				"fraction" : true,
+				"index" : 7,
+				"max" : 0.08,
+				"min" : 0.02,
+				"order" : 107,
+				"precision" : 4,
+				"step" : 0.001,
+				"text" : "Head Tilt Amount",
+				"type" : "slider",
+				"value" : 0.065
+			},
+			"lefteyecolor" : 
+			{
+				"index" : 2,
+				"order" : 102,
+				"text" : "Left Eye Color",
+				"type" : "color",
+				"value" : "1 1 0"
+			},
+			"nobaramovementspeed" : 
+			{
+				"fraction" : true,
+				"index" : 0,
+				"max" : 8,
+				"min" : 0,
+				"order" : 100,
+				"precision" : 3,
+				"step" : 0.01,
+				"text" : "Nobara Movement Speed",
+				"type" : "slider",
+				"value" : 2
+			},
+			"nobaratextscroll" : 
+			{
+				"index" : 9,
+				"order" : 109,
+				"text" : "\"Nobara\" Text Scroll",
+				"type" : "bool",
+				"value" : true
+			},
+			"nobaratextvisibility" : 
+			{
+				"index" : 8,
+				"order" : 108,
+				"text" : "\"Nobara\" Text Visibility",
+				"type" : "bool",
+				"value" : true
+			},
+			"righteyecolor" : 
+			{
+				"index" : 3,
+				"order" : 103,
+				"text" : "Right Eye Color",
+				"type" : "color",
+				"value" : "1 1 0"
+			},
+			"schemecolor" : 
+			{
+				"index" : 0,
+				"order" : 100,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0.39608 0.05490 0.19216"
+			}
+		},
+		"supportsaudioprocessing" : true
+	},
+	"preview" : "preview.gif",
+	"tags" : [ "Anime" ],
+	"title" : "Inhoso Nobara Kugisaki Customizable Animated Wallpaper",
+	"type" : "Scene",
+	"version" : 1,
+	"visibility" : "public",
+	"workshopid" : "2880846468",
+	"workshopurl" : "steam://url/CommunityFilePage/2880846468"
+}

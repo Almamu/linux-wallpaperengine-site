@@ -1,4 +1,5 @@
-import { DownloadSection } from './components/DownloadSection';
+import { BackgroundShowcaseSection } from './components/BackgroundShowcaseSection.tsx';
+import { ContributorsSection } from './components/ContributorsSection.tsx';
 import { FeatureSection } from './components/FeatureSection';
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
@@ -11,10 +12,12 @@ export function App() {
     <div className="min-h-screen bg-gray-900 text-white">
       <Header />
       <Hero />
+      <InstallationSection />
       <FeatureSection />
       <StatusSection />
-      <InstallationSection />
-      <DownloadSection />
+      <BackgroundShowcaseSection />
+      <ContributorsSection />
+      {/*<DownloadSection />*/}
       <Footer />
     </div>
   );

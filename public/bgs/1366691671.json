@@ -1,0 +1,22 @@
+{
+	"contentrating" : "Everyone",
+	"file" : "[Erai-raws] Steins;Gate 0 - 01 [1080p]_1.mp4",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0 0 0"
+			}
+		}
+	},
+	"preview" : "preview.jpg",
+	"tags" : [ "Anime" ],
+	"title" : "Steins;Gate Zero",
+	"type" : "video",
+	"visibility" : "public"
+}

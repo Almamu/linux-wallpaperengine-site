@@ -1,0 +1,23 @@
+{
+	"contentrating" : "Everyone",
+	"file" : "scene.json",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0.898 0.588 0.020"
+			}
+		}
+	},
+	"preview" : "preview.jpg",
+	"tags" : [ "Anime" ],
+	"title" : "sailor moon",
+	"type" : "scene",
+	"visibility" : "public",
+	"workshopid" : "1980267847"
+}

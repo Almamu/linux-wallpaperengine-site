@@ -1,0 +1,62 @@
+{
+	"approved" : true,
+	"contentrating" : "Everyone",
+	"description" : "[h1] ---------------------------------[/h1]\r\n[h1]Tags[/h1]\r\n[h1] ---------------------------------[/h1]\r\n- CyberPunk\r\n- Audio Responsive\r\n- Car \r\n[h1] ---------------------------------[/h1]\r\n",
+	"file" : "scene.json",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"dustmotes" : 
+			{
+				"index" : 2,
+				"order" : 102,
+				"text" : "Dust Motes",
+				"type" : "bool",
+				"value" : true
+			},
+			"logo_size" : 
+			{
+				"fraction" : true,
+				"index" : 0,
+				"max" : 1,
+				"min" : 0,
+				"order" : 100,
+				"precision" : 2,
+				"step" : 0.10000000000000001,
+				"text" : "Logo Size",
+				"type" : "slider",
+				"value" : 0
+			},
+			"pulsethreshold" : 
+			{
+				"fraction" : true,
+				"index" : 1,
+				"max" : 1,
+				"min" : 0,
+				"order" : 101,
+				"precision" : 2,
+				"step" : 0.10000000000000001,
+				"text" : "Pulse Threshold",
+				"type" : "slider",
+				"value" : 0.5
+			},
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0.20784313725490197 0.16470588235294117 0.2"
+			}
+		},
+		"supportsaudioprocessing" : true
+	},
+	"preview" : "preview.gif",
+	"tags" : [ "Cyberpunk" ],
+	"title" : "CyberPunk Car",
+	"type" : "Scene",
+	"version" : 3,
+	"visibility" : "public",
+	"workshopid" : "2043414374",
+	"workshopurl" : "steam://url/CommunityFilePage/2043414374"
+}
