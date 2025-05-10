@@ -33,7 +33,9 @@ export const BackgroundShowcaseSection = () => {
 
         <div
           className={`mx-auto max-w-6xl grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3 ${expanded ? '' : 'max-h-[700px] overflow-y-hidden relative'}`}>
-          <div className="absolute bottom-0 w-full h-16 bg-linear-to-b from-transparent to-gray-850"></div>
+          {!expanded && (
+            <div className="absolute bottom-0 w-full h-16 bg-linear-to-b from-transparent to-gray-850"></div>
+          )}
           {bgs.map((bg, index) => {
             // @ts-expect-error the in check should take care of actually validating this
             const project = bg in projects ? projects[bg] : null;
