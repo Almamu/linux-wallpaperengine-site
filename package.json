@@ -14,7 +14,7 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.1.5",
     "@wroud/vite-plugin-ssg": "^5.1.4",
-    "lucide-react": "^0.503.0",
+    "lucide-react": "^0.511.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
