@@ -12,7 +12,7 @@
     "bgs:update": "node bin/update_backgrounds.cjs"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.7",
+    "@tailwindcss/vite": "^4.1.16",
     "@wroud/vite-plugin-ssg": "^5.3.0",
     "lucide-react": "^0.544.0",
     "react": "^19.1.0",
