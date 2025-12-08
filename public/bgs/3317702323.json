@@ -15,13 +15,13 @@
 			}
 		}
 	},
-	"preview" : "preview.jpg",
+	"preview" : "preview.gif",
 	"ratingsex" : "none",
 	"ratingviolence" : "none",
 	"tags" : [ "Landscape" ],
 	"title" : "Samurai's paradise",
 	"type" : "scene",
-	"version" : 1,
+	"version" : 2,
 	"visibility" : "public",
 	"workshopid" : "3317702323",
 	"workshopurl" : "steam://url/CommunityFilePage/3317702323"
