@@ -75,7 +75,7 @@ const StatusCategory = ({ title, items }: StatusCategoryProps) => {
 };
 
 export const StatusSection = () => {
-  const wallpaperTypes = [
+  const wallpaperTypes: StatusItemProps[] = [
     {
       feature: 'Video Wallpapers',
       status: 'supported' as StatusType,
@@ -85,7 +85,7 @@ export const StatusSection = () => {
       feature: 'Scene Wallpapers',
       status: 'partial' as StatusType,
       details:
-        'Image effects, user properties and complex effects. Particles not supported',
+        'Image effects, user properties and complex effects. Particles partially supported',
     },
     {
       feature: 'Web Wallpapers',
@@ -94,7 +94,7 @@ export const StatusSection = () => {
     },
   ];
 
-  const platforms = [
+  const platforms: StatusItemProps[] = [
     {
       feature: 'X11',
       status: 'partial' as StatusType,
@@ -107,7 +107,7 @@ export const StatusSection = () => {
     },
   ];
 
-  const features = [
+  const features: StatusItemProps[] = [
     {
       feature: 'Audio Reactive',
       status: 'supported' as StatusType,
@@ -119,8 +119,7 @@ export const StatusSection = () => {
     {
       feature: 'Steam Workshop',
       status: 'supported' as StatusType,
-      description:
-        'Detects available backgrounds downloaded to your Steam folder',
+      details: 'Detects available backgrounds downloaded to your Steam folder',
     },
   ];
 
