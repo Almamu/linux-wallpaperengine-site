@@ -28,11 +28,9 @@ export const Header = () => {
           <div className="flex items-center">
             <Link
               href="#"
-              className="flex items-center text-xl font-bold text-white">
-              <span className="mr-1 text-primary-400">&gt;</span>
-              <span className="mr-1">linux</span>
-              <span className="text-primary-400">-</span>
-              <span>wallpaperengine</span>
+              className="flex items-center text-xl font-bold text-white page-title">
+              <span className="mr-1 text-primary-400">linux</span>
+              <span>wallpaper engine</span>
             </Link>
           </div>
 

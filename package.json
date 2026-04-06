@@ -11,14 +11,11 @@
     "prepare": "husky",
     "bgs:update": "node bin/update_backgrounds.cjs"
   },
-  "dependencies": {
+  "devDependencies": {
     "@tailwindcss/vite": "^4.1.16",
-    "@wroud/vite-plugin-ssg": "^5.3.0",
     "lucide-react": "^0.544.0",
     "react": "^19.1.0",
-    "react-dom": "^19.1.1"
-  },
-  "devDependencies": {
+    "react-dom": "^19.1.1",
     "@eslint/js": "^9.38.0",
     "@types/node": "^22.15.2",
     "@types/react": "^19.1.13",
@@ -39,6 +36,7 @@
     "tailwindcss": "^4.1.13",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.46.1",
-    "vite": "^6.3.4"
+    "vite": "6.4.2",
+    "@wroud/vite-plugin-ssg": "^5.3.1"
   }
 }

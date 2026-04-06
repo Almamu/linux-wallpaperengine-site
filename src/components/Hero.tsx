@@ -1,4 +1,4 @@
-import { ArrowRight, Github, Terminal } from 'lucide-react';
+import { ArrowRight, Github } from 'lucide-react';
 
 import { Link } from './ui/Link';
 
@@ -17,16 +17,8 @@ export const Hero = () => {
       <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
           <div className="mb-6 inline-block">
-            <span className="bg-primary-500/10 border-primary-500/20 inline-flex items-center rounded-full border px-3 py-1 text-sm font-medium text-primary-400">
-              <Terminal size={14} className="mr-1.5" />
-              Linux Compatibility Project
-            </span>
+            <img src="/logo/dark.svg" alt="Dynamic Wallpapers for Linux" />
           </div>
-
-          <h1 className="mb-6 text-4xl font-bold leading-tight text-white sm:text-5xl md:text-6xl">
-            <span className="text-primary-400">Dynamic Wallpapers</span> for
-            Linux
-          </h1>
 
           <p className="mb-10 text-xl leading-relaxed text-gray-300">
             An open-source implementation of Wallpaper Engine for Linux.

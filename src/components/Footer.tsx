@@ -10,11 +10,9 @@ export const Footer = () => {
           <div className="md:col-span-2">
             <Link
               href="#"
-              className="mb-4 flex items-center text-xl font-bold text-white">
-              <span className="mr-1 text-primary-400">&gt;</span>
-              <span className="mr-1">linux</span>
-              <span className="text-primary-400">-</span>
-              <span>wallpaperengine</span>
+              className="flex items-center text-xl font-bold text-white page-title">
+              <span className="mr-1 text-primary-400">linux</span>
+              <span>wallpaper engine</span>
             </Link>
             <p className="mb-4 leading-relaxed text-gray-400">
               An open-source implementation of Wallpaper Engine for Linux.
