@@ -122,7 +122,7 @@ export const InstallationSection = () => {
                 <p className="mb-4 text-gray-300">1. Clone the repository:</p>
                 <CommandBlock>
                   git clone --recurse-submodules
-                  https://github.com/Almamu/linux-wallpaperengine.git cd
+                  https://github.com/Almamu/linux-wallpaperengine.git && cd
                   linux-wallpaperengine
                 </CommandBlock>
                 <p className="mb-4 text-gray-300">
